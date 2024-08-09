@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  background-color: #c4baff;
+  padding: 0;
+}
+
+.galleryImagesWrapper {
+  /* width: calc(100vw - 64px); */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* flex-flow: wrap-reverse; */
+  text-align: center;
+}
+img{
+  width: 350px;
+  margin: 8px;
+  border-radius: 5%;
+  transition: all 0.3s ease;
+}
+img:hover{
+  border: 3px solid #002233;
+  margin: 0px;
+  transform: rotate(-1deg);
+}

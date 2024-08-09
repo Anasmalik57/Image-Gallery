@@ -1,0 +1,39 @@
+.container {
+  background-color: #2667ff;
+  display: flex;
+  /* justify-content: center; */
+  padding: 110px 50px;
+  gap: 20px;
+}
+#individual-image {
+  margin: 8px;
+  border: 5px solid #3f8efc;
+  width: 500px; 
+}
+
+#individual-image:hover{
+    transform: rotate(-10deg) scale(1.05);
+    border: 5px solid #4ad66d;
+    
+}
+.textcontainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 50px;
+  letter-spacing: 0.1rem;
+  font-family: cursive;
+}
+.textcontainer > h2{
+    font-size: 45px;
+    margin-bottom: 4px;
+    color: #00253e;
+    
+}
+.textcontainer > p{
+    font-size: 19px;
+    padding-right: 20px;
+    color: #fff;
+}
+
